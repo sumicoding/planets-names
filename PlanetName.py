@@ -1,0 +1,85 @@
+import cv2
+
+img = cv2.imread("C:/Users/dell/Downloads/PRO-C116-project-image-main-main/PRO-C116-project-image-main-main/solar-system.jpg")
+cv2.putText(img,
+            "Sun",
+            (20,30),
+            cv2.FONT_HERSHEY_COMPLEX,
+            0.5,
+            (255,255,255),
+            )
+cv2.putText(img,
+            "mercury",
+            (90,170),
+            cv2.FONT_HERSHEY_COMPLEX,
+            0.5,
+            (255,255,255),
+            )
+cv2.putText(img,
+            "venus",
+            (180,170),
+            cv2.FONT_HERSHEY_COMPLEX,
+            0.5,
+            (255,255,255),
+            )
+cv2.putText(img,
+            "earth",
+            (270,170),
+            cv2.FONT_HERSHEY_COMPLEX,
+            0.5,
+            (255,255,255),
+            )
+cv2.putText(img,
+            "moon",
+            (300,150),
+            cv2.FONT_HERSHEY_COMPLEX,
+            0.5,
+            (255,255,255),
+            )
+cv2.putText(img,
+            "mars",
+            (370,170),
+            cv2.FONT_HERSHEY_COMPLEX,
+            0.5,
+            (255,255,255),
+            )
+cv2.putText(img,
+            "jupiter",
+            (460,170),
+            cv2.FONT_HERSHEY_COMPLEX,
+            0.5,
+            (255,255,255),
+            )
+cv2.putText(img,
+            "saturn",
+            (720,170),
+            cv2.FONT_HERSHEY_COMPLEX,
+            0.5,
+            (255,255,255),
+            )
+cv2.putText(img,
+            "uranus",
+            (960,170),
+            cv2.FONT_HERSHEY_COMPLEX,
+            0.5,
+            (255,0,255),
+            )
+cv2.putText(img,
+            "neptune",
+            (1100,170),
+            cv2.FONT_HERSHEY_COMPLEX,
+            0.5,
+            (255,255,255),
+            )
+cv2.putText(img,
+            "the planets",
+            (460,300),
+            cv2.FONT_HERSHEY_COMPLEX,
+            0.5,
+            (255,255,255),
+            )
+
+cv2.imshow("output",img)
+
+cv2.waitKey(0)
+
